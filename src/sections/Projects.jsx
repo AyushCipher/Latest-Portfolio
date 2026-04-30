@@ -168,7 +168,7 @@ export default function Projects() {
                 <img
                   src={project.image}
                   alt={project.title}
-                  className={`w-full h-full drop-shadow-xl md:drop-shadow-2xl object-contain`}
+                  className={`w-full h-full drop-shadow-xl md:drop-shadow-2xl object-cover`}
                   style={{
                     position: "relative",
                     zIndex: 10,
