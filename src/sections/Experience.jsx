@@ -13,13 +13,13 @@ const experiences = [
       "Developed responsive B2B frontends and scalable B2C backends with secure role-based access. Optimized backend queries for high performance and integrated Razorpay to ensure seamless, secure transaction processing.",
   },
   
-  // {
-  //   role: "Web Developer Intern",
-  //   company: "Mobisoft Technologies",
-  //   duration: "2022 - 2023",
-  //   description:
-  //     "In this internship , I gained valuable hands on experience and exposure to various aspects of web development.",
-  // },
+  {
+    role: "Web Developer Intern",
+    company: "Mobisoft Technologies",
+    duration: "2025 - 2026",
+    description:
+      "In this internship , I gained valuable hands on experience and exposure to various aspects of web development.",
+  },
   // {
   //   role: "Graduate Engineer",
   //   company: "HCL Technologies",

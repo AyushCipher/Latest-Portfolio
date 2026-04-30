@@ -160,7 +160,7 @@ export default function Projects() {
               {/* Project Image Wrapper */}
               <div
                 className={`relative w-full overflow-hidden shadow-lg sm:shadow-xl md:shadow-2xl rounded-lg sm:rounded-xl ${
-                  isMobile ? "h-[65vh] mb-4" : "sm:h-[60vh] md:h-[65vh] lg:h-[70vh] mb-8 sm:mb-10 md:mb-12"
+                  isMobile ? "h-[65vh] mb-21" : "sm:h-[60vh] md:h-[5vh] lg:h-[70vh] mb-8 sm:mb-10 md:mb-12"
                 }`}
                 style={{ zIndex: 10, transition: "box-shadow 250ms ease", backgroundColor: activeProject.bgColor }}
               >
@@ -168,7 +168,7 @@ export default function Projects() {
                 <img
                   src={project.image}
                   alt={project.title}
-                  className={`w-full h-full drop-shadow-xl md:drop-shadow-2xl object-cover`}
+                  className={`w-full h-full drop-shadow-xl md:drop-shadow-2xl object-cover `}
                   style={{
                     position: "relative",
                     zIndex: 10,
@@ -191,7 +191,7 @@ export default function Projects() {
         </div>
 
         {/* View Project Button */}
-        <div className={`absolute z-20 ${isMobile ? "bottom-8" : "sm:bottom-12 md:bottom-16 lg:bottom-10"}`}>
+        <div className={`absolute z-20 left-1/2 -translate-x-1/2 ${isMobile ? "bottom-20" : "sm:bottom-20 md:bottom-24 lg:bottom-20"}`}>
           <a
             href={activeProject?.link}
             target="_blank"
